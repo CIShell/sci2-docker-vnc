@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Sci2
+Icon=/home/headless/sci2/icon.xpm
+Exec=/home/headless/sci2/sci2
