@@ -22,7 +22,7 @@ docker run -d -p 6901:6901 -v ~/Downloads:/home/headless/Dropbox -t cnsiu/sci2-v
 ```
 The command will download the container image from Docker's image repository, and run the container in background. It also run an HTML5 client on TCP port **6901** and exposes it to be accessed by a browser on the host system. In addition, it mounts `~/Downloads` directory in the host system to a volume (also visible as a directory) `/home/headless/Dropbox` in the container OS. Mounting basically creates a bridge between the host's file system and the container's file system, so the files in `~/Downloads` are accessible via volume `/home/headless/Dropbox` in the container. You can change these mapped directories to other locations in the command to suit your needs.
 
-You can see all the containers running in the background using `docker ps` command.
+You can see all the containers running in background using `docker ps` command.
 
 ![running the container][running-container]
 
