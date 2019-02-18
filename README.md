@@ -2,7 +2,7 @@
 
 Sci2 in a Docker container accessed via VNC (over HTTP)
 
-This Github repository contains resources for building Docker image based on Ubuntu containing Sci2, Gephi and VNC. If you are a Sci2/Gephi user, you don't need to build an image yourself. The associated image is already available on [Docker Hub][docker-hub-repo] and can directly be run using `docker run` command. The details are provided in the **Running Sci2 container in background** section.
+This Github repository contains resources for building Docker image based on Ubuntu containing Sci2, Gephi and VNC. If you are a Sci2/Gephi user, you don't need to build an image yourself. The associated image is already available on [Docker Hub][docker-hub-repo] and can directly be run using `docker run` command. The details are provided in the **[Running Sci2 container in background](##Running-Sci2-container-in-background)** section.
 
 Running a container bundled with Sci2 and Gephi in background so that the users don't have to install these softwares on their local system is the primary use-case for building this image. The container, once run, can be used directly from any modern web browser over VNC.
 
